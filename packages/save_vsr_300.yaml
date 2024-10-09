@@ -1195,8 +1195,8 @@ switch:
     scan_interval: 10
     registers:
       - name: vsr300_eco_mode
-        hub: vsr300
-        slowe: 1
+        hub: VSR300
+        slave: 1
         address: 2504
         command_on: 1 #Enable Eco operation based on temp. offset
         command_off: 0 #Disable Eco operation
